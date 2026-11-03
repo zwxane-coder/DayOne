@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sources & Accuracy — DayOne</title>
+    <link rel="icon" type="image/png" href="images/logo.jpg">
+    <meta name="description" content="Where DayOne’s data comes from, and how accurate it is.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/sources.css">
+    <script src="js/theme.js"></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-container">
+            <a href="index.html" class="logo-link">
+                <img src="images/logo.jpg" alt="DayOne Logo" class="brand-logo">
+                <span class="brand-title">DayOne</span>
+            </a>
+
+            <nav class="main-nav" id="mainNav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="explore.html">Explore</a></li>
+                    <li><a href="compare.html">Compare</a></li>
+                    <li><a href="gift.html">Gift a Story</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <a href="index.html#birthdayForm" class="btn btn-primary-header">Discover Day</a>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle Navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="pg">
+        <div class="pg-hero"><span class="eyebrow">Sources &amp; Accuracy</span><h1>Where every fact comes from.</h1><p>DayOne reads open data and shows its working. Here is what each source supplies, and where the limits are.</p></div>
+
+        <div class="pills" id="sf" role="group" aria-label="Filter sources"></div>
+        <div class="src-grid" id="sg"><noscript><p class="note">Turn on JavaScript to browse the source list.</p></noscript></div>
+
+        <section class="gl src-acc">
+            <h2>How accurate is it?</h2>
+            <ul>
+                <li><b>Weather</b> comes from the ERA5 reanalysis, which starts in 1940. It is modelled from observations, so it can differ from a local weather station.</li>
+                <li><b>Songs</b> use Billboard’s year-end lists from 1946. Earlier years in Explore show a selection of popular songs because no ranked chart exists. For birthdays before 1950, My Day shows the earliest year-end chart on record.</li>
+                <li><b>Prices</b> are national United States benchmarks, estimated between benchmark years. When a birthplace has purchasing-power data, they are converted to local currency and labelled as estimates.</li>
+                <li><b>Headlines</b> for an exact day are only logged for some dates. Otherwise DayOne shows notable events on the same calendar date from other years, and says so.</li>
+                <li><b>Missing data is left out</b> rather than guessed. If something looks wrong, <a href="contact.html">tell us</a> and include the date and place.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <a href="index.html" class="logo-link footer-logo">
+                    <img src="images/logo.jpg" alt="DayOne Logo" class="brand-logo">
+                    <span class="brand-title">DayOne</span>
+                </a>
+                <p class="footer-tagline">“The world before you. The day you arrived.”</p>
+            </div>
+            <div class="footer-col">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#birthdayForm">My Day</a></li>
+                    <li><a href="explore.html">Explore</a></li>
+                    <li><a href="compare.html">Compare</a></li>
+                    <li><a href="gift.html">Gift a Story</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>About &amp; Support</h4>
+                <ul>
+                    <li><a href="about.html">About DayOne</a></li>
+                    <li><a href="sources.html">Sources &amp; Accuracy</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms of Use</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 DayOne. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/sources.js"></script>
+</body>
+</html>
